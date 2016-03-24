@@ -33,7 +33,7 @@ SinglyLinkedList.prototype.remove = function(data) {
         this.tail = previous
       }
       previous.next = current.next;
-      this.numberOfValues++;
+      this.numberOfValues--;
     }
     else{
       previous=current;
