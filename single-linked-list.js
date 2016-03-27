@@ -30,7 +30,7 @@ SinglyLinkedList.prototype.remove = function(data) {
         this.head = this.head.next;
       }
       if (current === this.tail){
-        this.tail = previous
+        this.tail = previous;
       }
       previous.next = current.next;
       this.numberOfValues--;
